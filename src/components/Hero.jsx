@@ -3,13 +3,17 @@ import data from '../data.json';
 
 const Hero = () => {
     const profile = data.profile;
+
+    const PUBLIC_BASE = import.meta.env.BASE_URL; // 로컬에서는 '/', 배포에서는 '/<REPO>/'
+    const imagePath = `${PUBLIC_BASE}${profile.profileImage.startsWith('/') ? profile.profileImage.substring(1) : profile.profileImage}`;
+
     return (
         <section style={styles.hero}>
             <div className="container">
                 {profile.profileImage && (
                     <div style={styles.profileImageContainer}>
                         <img
-                            src={profile.profileImage}
+                            src={imagePath}
                             alt={profile.name}
                             style={styles.profileImage}
                         />
