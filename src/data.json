@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Alex Designer",
+    "role": "Product Designer & Developer",
+    "bio": "I craft digital experiences that merge art with functionality. Minimalist by design, maximalist by impact.",
+    "location": "Tokyo, Japan",
+    "email": "hello@alex.design"
+  },
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Neon Finance",
+      "description": "A futuristic dashboard for tracking crypto assets with real-time data visualization.",
+      "tags": ["React", "D3.js", "WebSockets"],
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "title": "Zen Focus",
+      "description": "A productivity app designed to reduce cognitive load through negative space.",
+      "tags": ["Mobile", "Flutter", "UX Research"],
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Mono Type",
+      "description": "An open-source typeface designed for coding and long-form reading.",
+      "tags": ["Typography", "Design", "Open Source"],
+      "link": "#"
+    }
+  ]
+}
