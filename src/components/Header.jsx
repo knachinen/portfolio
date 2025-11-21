@@ -8,7 +8,7 @@ const Header = () => {
         <h1 style={styles.logo}>{data.profile.name}</h1>
         <nav>
           <ul style={styles.navList}>
-            <li><a href="#work" style={styles.link}>Work</a></li>
+            <li><a href="#work" style={styles.link}>Project</a></li>
             <li><a href="#contact" style={styles.link}>Contact</a></li>
           </ul>
         </nav>

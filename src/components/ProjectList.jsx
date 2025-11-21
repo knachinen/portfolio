@@ -18,7 +18,7 @@ const ProjectList = () => {
     return (
         <section id="work" style={styles.section}>
             <div className="container">
-                <h3 style={styles.sectionTitle}>프로젝트</h3>
+                <h3 style={styles.sectionTitle}>Project</h3>
                 <div style={styles.grid}>
                     {sortedProjects.map((project) => (
                         <a key={project.id} href={project.link} style={styles.card} className="project-card">
@@ -46,7 +46,7 @@ const styles = {
         padding: '4rem 0',
     },
     sectionTitle: {
-        fontSize: '1.5rem',
+        fontSize: '1.0rem',
         textTransform: 'uppercase',
         letterSpacing: '0.1em',
         color: 'var(--secondary-text)',
