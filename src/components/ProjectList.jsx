@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import data from '../data.json';
 
-const ProjectList = () => {
+const ProjectList = ({ onProjectSelect }) => {
 
     // useMemo를 사용하여 데이터가 변경되지 않는 한 정렬을 한 번만 실행하도록 최적화합니다.
     const sortedProjects = useMemo(() => {
@@ -21,7 +21,19 @@ const ProjectList = () => {
                 <h3 style={styles.sectionTitle}>Project</h3>
                 <div style={styles.grid}>
                     {sortedProjects.map((project) => (
-                        <a key={project.id} href={project.link} style={styles.card} className="project-card">
+                        <div
+                            key={project.id}
+                            style={styles.card}
+                            className="project-card"
+                            onClick={() => onProjectSelect(project)}
+                            role="button"
+                            tabIndex={0}
+                            onKeyPress={(e) => {
+                                if (e.key === 'Enter' || e.key === ' ') {
+                                    onProjectSelect(project);
+                                }
+                            }}
+                        >
                             <span style={styles.date}>{project.date}</span>
                             <div style={styles.header}>
                                 <h4 style={styles.title}>{project.title}</h4>
@@ -33,7 +45,7 @@ const ProjectList = () => {
                                     <span key={index} style={styles.tag}>{tag}</span>
                                 ))}
                             </div>
-                        </a>
+                        </div>
                     ))}
                 </div>
             </div>
@@ -67,6 +79,7 @@ const styles = {
         borderRadius: '8px',
         border: '1px solid transparent',
         transition: 'border-color 0.2s ease, background-color 0.2s ease',
+        cursor: 'pointer', // Add cursor pointer to indicate clickability
         ':hover': { // Hover 효과 추가
             borderColor: '#ddd',
             backgroundColor: '#f9f9f9',
