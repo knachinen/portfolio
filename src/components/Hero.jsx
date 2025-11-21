@@ -33,6 +33,8 @@ const styles = {
         lineHeight: '1.3',
         maxWidth: '90%',
         marginBottom: '2rem',
+        whiteSpace: 'pre-line',
+        wordBreak: 'break-word',
     },
     location: {
         display: 'flex',

@@ -2,8 +2,8 @@
   "profile": {
     "name": "김성진",
     "role": "프로그래머",
-    "bio": "로봇제어 엔지니어, 시민단체 활동가, 교육 퍼실리테이터 & 튜터 & 코치",
     "location": "서울",
+    "bio": "로봇제어 엔지니어 \n 시민단체 활동가, 시빅해커 \n 교육 퍼실리테이터, 튜터, 코치",
     "email": "knachinen@gmail.com"
   },
   "socials": [
@@ -19,34 +19,241 @@
   "projects": [
     {
       "id": 1,
-      "title": "로봇제어 시스템",
-      "description": "로봇제어 시스템",
+      "title": "서비스로봇 모바일 앱",
+      "description": "서비스로봇을 모바일 앱으로 제어",
       "tags": [
         "Robot",
-        "C/C++"
+        "iOS"
       ],
+      "date": "2009-2011",
       "link": "#"
     },
     {
       "id": 2,
-      "title": "Zen Focus",
-      "description": "A productivity app designed to reduce cognitive load through negative space.",
+      "title": "서비스로봇 ROS",
+      "description": "서비스로봇 ROS 프레임워크 적용",
       "tags": [
-        "Mobile",
-        "Flutter",
-        "UX Research"
+        "Robot",
+        "ROS"
       ],
+      "date": "2009-2011",
       "link": "#"
     },
     {
       "id": 3,
-      "title": "Mono Type",
-      "description": "An open-source typeface designed for coding and long-form reading.",
+      "title": "로봇 테스트",
+      "description": "청소로봇 및 서비스로봇 품질 테스트",
       "tags": [
-        "Typography",
-        "Design",
-        "Open Source"
+        "Robot",
+        "Test"
       ],
+      "date": "2009-2013",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "title": "청소로봇 UI",
+      "description": "청소로봇 UI 개발",
+      "tags": [
+        "Robot",
+        "UI"
+      ],
+      "date": "2011-2013",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "title": "공장출하 불량진단 자동화",
+      "description": "청소로봇 제품출하 사전 불량진단 자동화 프로세스 개발",
+      "tags": [
+        "Robot",
+        "Automation",
+        "Test"
+      ],
+      "date": "2011-2013",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "title": "Light Painting",
+      "description": "Raspberry Pi를 이용한 Light Painting",
+      "tags": [
+        "Light Painting",
+        "Raspberry Pi"
+      ],
+      "date": "2017",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "title": "캠페인 서명페이지",
+      "description": "캠페인 소개 및 서명 페이지 구축",
+      "tags": [
+        "Webpage"
+      ],
+      "date": "2020",
+      "link": "#"
+    },
+    {
+      "id": 8,
+      "title": "AI 논문수집기",
+      "description": "arXiv AI 논문을 요약하여 메일 전송",
+      "tags": [
+        "LLM",
+        "Fine-tuning",
+        "Huggingface",
+        "Quantization",
+        "arXiv",
+        "QLoRA"
+      ],
+      "date": "2023",
+      "link": "#"
+    },
+    {
+      "id": 9,
+      "title": "RAG 학습모듈",
+      "description": "RAG 학습모듈 제작",
+      "tags": [
+        "RAG",
+        "LangChain",
+        "LangGraph"
+      ],
+      "date": "2024",
+      "link": "#"
+    },
+    {
+      "id": 10,
+      "title": "Tensorflow to PyTorch 변환",
+      "description": "Tensorflow 로 만들어진 교육용 코드를 PyTorch 로 변환",
+      "tags": [
+        "Tensorflow",
+        "PyTorch"
+      ],
+      "date": "2024",
+      "link": "#"
+    },
+    {
+      "id": 11,
+      "title": "Automated Fact Checking",
+      "description": "AI 활용 팩트체크 기술 리뷰",
+      "tags": [
+        "AI Safety",
+        "Automated Fact Checking"
+      ],
+      "date": "2024",
+      "link": "#"
+    },
+    {
+      "id": 12,
+      "title": "테크 블로깅",
+      "description": "AI 기술 블로그 작성",
+      "tags": [
+        "AI",
+        "Blog"
+      ],
+      "date": "2024-2025",
+      "link": "#"
+    },
+    {
+      "id": 13,
+      "title": "정책연대기: 서울 (사라지는 공공정책 데이터)",
+      "description": "기사 수집, 데이터분석 및 시각화",
+      "tags": [
+        "Web Scraping",
+        "Data Analysis",
+        "Data Visualization"
+      ],
+      "date": "2024-2025",
+      "link": "#"
+    },
+    {
+      "id": 14,
+      "title": "교육 퍼실리테이션",
+      "description": "아이펠 코어과정 퍼실리테이션: 케라스 창시자에게 배우는 딥러닝, 딥러닝 토이 프로젝트, 플러터",
+      "tags": [
+        "Facilitation",
+        "Keras",
+        "Deep Learning",
+        "Toy Project"
+      ],
+      "date": "2024-2025",
+      "link": "#"
+    },
+    {
+      "id": 15,
+      "title": "다크맵투어: 기사수집 및 데이터추출",
+      "description": "웹스크래핑으로 기사 수집. OSS LLM 이용한 주소 데이터 추출",
+      "tags": [
+        "Web Scraping",
+        "LLM",
+        "OSS",
+        "Prompt Engineering",
+        "Ollama"
+      ],
+      "date": "2024-2025",
+      "link": "#"
+    },
+    {
+      "id": 16,
+      "title": "동해물 소싸움: 데이터 수집 및 정보추출",
+      "description": "웹스크래핑으로 데이터수집. 영상의 소리를 STT로 텍스트 추출 및 데이터분석",
+      "tags": [
+        "Web Scraping",
+        "Speech-To-Text",
+        "Whisper",
+        "Data Analysis"
+      ],
+      "date": "2025",
+      "link": "#"
+    },
+    {
+      "id": 17,
+      "title": "VibeCoding: Gemini CLI",
+      "description": "Gemini CLI 를 이용한 바이브코딩",
+      "tags": [
+        "Gemini CLI",
+        "Vibe Coding"
+      ],
+      "date": "2025",
+      "link": "#"
+    },
+    {
+      "id": 18,
+      "title": "VibeCoding: AntiGravity",
+      "description": "AntiGravity 를 이용한 바이브코딩",
+      "tags": [
+        "AntiGravity",
+        "Vibe Coding"
+      ],
+      "date": "2025",
+      "link": "#"
+    },
+    {
+      "id": 19,
+      "title": "데이터분석 및 머신러닝 보조강사",
+      "description": "바이브코딩을 이용한 일반인 대상 데이터분석 및 머신러닝 교육 보조강사",
+      "tags": [
+        "Vibe Coding",
+        "Data Analysis",
+        "Machine Learning"
+      ],
+      "date": "2025",
+      "link": "#"
+    },
+    {
+      "id": 20,
+      "title": "해커톤 코칭",
+      "description": "스파르타-포스코 WX 해커톤 코칭. YOLO를 이용한 영상분석 팀 담당",
+      "tags": [
+        "Vibe Coding",
+        "Hackathon",
+        "YOLO",
+        "Computer Vision",
+        "LLM",
+        "Git",
+        "Python"
+      ],
+      "date": "2025",
       "link": "#"
     }
   ]
