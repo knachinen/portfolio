@@ -1,45 +1,52 @@
 {
   "profile": {
-    "name": "Alex Designer",
-    "role": "Product Designer & Developer",
-    "bio": "I craft digital experiences that merge art with functionality. Minimalist by design, maximalist by impact.",
-    "location": "Tokyo, Japan",
-    "email": "hello@alex.design"
+    "name": "김성진",
+    "role": "프로그래머",
+    "bio": "로봇제어 엔지니어, 시민단체 활동가, 교육 퍼실리테이터 & 튜터 & 코치",
+    "location": "서울",
+    "email": "knachinen@gmail.com"
   },
   "socials": [
     {
       "platform": "GitHub",
-      "url": "https://github.com"
+      "url": "https://github.com/knachinen"
     },
     {
-      "platform": "LinkedIn",
-      "url": "https://linkedin.com"
-    },
-    {
-      "platform": "Twitter",
-      "url": "https://twitter.com"
+      "platform": "Notion",
+      "url": "https://magnetic-rhodium-2a4.notion.site/2241c488be838086ad38e1470ab8c391?pvs=74"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Neon Finance",
-      "description": "A futuristic dashboard for tracking crypto assets with real-time data visualization.",
-      "tags": ["React", "D3.js", "WebSockets"],
+      "title": "로봇제어 시스템",
+      "description": "로봇제어 시스템",
+      "tags": [
+        "Robot",
+        "C/C++"
+      ],
       "link": "#"
     },
     {
       "id": 2,
       "title": "Zen Focus",
       "description": "A productivity app designed to reduce cognitive load through negative space.",
-      "tags": ["Mobile", "Flutter", "UX Research"],
+      "tags": [
+        "Mobile",
+        "Flutter",
+        "UX Research"
+      ],
       "link": "#"
     },
     {
       "id": 3,
       "title": "Mono Type",
       "description": "An open-source typeface designed for coding and long-form reading.",
-      "tags": ["Typography", "Design", "Open Source"],
+      "tags": [
+        "Typography",
+        "Design",
+        "Open Source"
+      ],
       "link": "#"
     }
   ]
